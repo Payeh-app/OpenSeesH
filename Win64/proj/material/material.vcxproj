@@ -285,7 +285,7 @@
     <ClCompile Include="..\..\..\SRC\material\uniaxial\SeriesMaterial.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\ShearPanelMaterial.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\SMAMaterial.cpp" />
-    <ClCompile Include="..\..\..\SRC\material\uniaxial\SmoothIMK.cpp" />
+    <ClCompile Include="..\..\..\SRC\material\uniaxial\GeneralizedIMK.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\SPSW02.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\StainlessECThermal.cpp" />
     <ClCompile Include="..\..\..\SRC\material\uniaxial\Steel01.cpp" />
@@ -498,7 +498,7 @@
     <ClInclude Include="..\..\..\SRC\material\uniaxial\SeriesMaterial.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\ShearPanelMaterial.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\SMAMaterial.h" />
-    <ClInclude Include="..\..\..\SRC\material\uniaxial\SmoothIMK.h" />
+    <ClInclude Include="..\..\..\SRC\material\uniaxial\GeneralizedIMK.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\SPSW02.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\StainlessECThermal.h" />
     <ClInclude Include="..\..\..\SRC\material\uniaxial\Steel01.h" />

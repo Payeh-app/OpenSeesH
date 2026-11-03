@@ -23,16 +23,16 @@
 // IMK material with exponential transition curves and multiple cyclic modes (Bilinear, poinched and peak-oriented)
 
 
-#ifndef SmoothIMK_h
-#define SmoothIMK_h
+#ifndef GeneralizedIMK_h
+#define GeneralizedIMK_h
 
 #include <UniaxialMaterial.h>
 #include <ID.h>
-class SmoothIMK : public UniaxialMaterial
+class GeneralizedIMK : public UniaxialMaterial
 {
 public:
 	//enum ebranch { gapping, precap, postcap, residual, failing, failed, peakOriented, pinching, peakPassing };
-	SmoothIMK(int tag,
+	GeneralizedIMK(int tag,
 		std::vector<double> pd, std::vector<double> pf,
 		std::vector<double> nd, std::vector<double> nf,
 		double gamaS, double cS,
@@ -44,11 +44,11 @@ public:
 		double betaPinchNeg, double epsPinchNeg, double sigPenetFacNeg, double bilinEndAmpNeg, double unloadingStiffFacNeg,
 		double sigInit, int printFailure);
 
-	SmoothIMK(void);
-	virtual ~SmoothIMK();
+	GeneralizedIMK(void);
+	virtual ~GeneralizedIMK();
 
 
-	const char* getClassType(void) const { return "SmoothIMK"; };
+	const char* getClassType(void) const { return "GeneralizedIMK"; };
 
 	double getInitialTangent(void);
 	UniaxialMaterial* getCopy(void);

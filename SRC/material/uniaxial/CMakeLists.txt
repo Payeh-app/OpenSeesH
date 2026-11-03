@@ -94,7 +94,7 @@ target_sources(OPS_Material
       pyUCLA.cpp
       SMAMaterial.cpp
       Steel05.cpp
-      SmoothIMK.cpp
+      GeneralizedIMK.cpp
       ConfinedConcrete.cpp
       Steel_01.cpp
        
@@ -140,7 +140,7 @@ target_sources(OPS_Material
       SelfCenteringMaterial.h
       SeriesMaterial.h
       ShearPanelMaterial.h
-      SmoothIMK.h
+      GeneralizedIMK.h
       SMAMaterial.h
       StainlessECThermal.h
       Steel01.h

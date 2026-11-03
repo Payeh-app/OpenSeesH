@@ -58,7 +58,7 @@
 // uniaxial material model header files
 #ifdef _CSS
 #include <Steel05.h>
-#include <SmoothIMK.h>
+#include <GeneralizedIMK.h>
 #endif // _CSS
 //#include "ElasticBilin.h"
 // #include "BoucWenMaterial.h"
@@ -1706,8 +1706,8 @@ FEM_ObjectBrokerAllClasses::getNewUniaxialMaterial(int classTag)
 #ifdef _CSS
 	case MAT_TAG_Steel05:
 		return new Steel05(); // SAJalali
-	case MAT_TAG_SmoothIMK:
-		return new SmoothIMK(); // SAJalali
+	case MAT_TAG_GeneralizedIMK:
+		return new GeneralizedIMK(); // SAJalali
 #endif // _CSS
 	//case MAT_TAG_ElasticBilin:
 	//	return new ElasticBilin();

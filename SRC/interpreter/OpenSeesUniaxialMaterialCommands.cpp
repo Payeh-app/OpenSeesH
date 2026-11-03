@@ -284,7 +284,7 @@ void* OPS_SMAMaterial();
 //void* OPS_TzSandCPT(void);
 //void* OPS_QbSandCPT(void);
 void* OPS_Steel05(void);		// SAJalali
-extern void* OPS_SmoothIMK(void);		// SAJalali
+extern void* OPS_GeneralizedIMK(void);		// SAJalali
 //void* OPS_BucklingStrut(void);		// SAJalali
 //void* OPS_BucklingMaterial(void);		// SAJalali
 void* OPS_ConfinedConcrete(void);		// SAJalali
@@ -309,7 +309,7 @@ static int setUpUniaxialMaterials(void) {
   uniaxialMaterialsMap.insert(
       std::make_pair("Steel05", &OPS_Steel05));
   uniaxialMaterialsMap.insert(
-      std::make_pair("SmoothIMK", &OPS_SmoothIMK));
+      std::make_pair("GeneralizedIMK", &OPS_GeneralizedIMK));
   uniaxialMaterialsMap.insert(
       std::make_pair("ConfinedConcrete", &OPS_ConfinedConcrete));
   uniaxialMaterialsMap.insert(

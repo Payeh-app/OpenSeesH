@@ -697,7 +697,7 @@
     <ClCompile Include="..\..\..\SRC\material\uniaxial\Steel05.cpp">
       <Filter>uniaxial</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\SRC\material\uniaxial\SmoothIMK.cpp">
+    <ClCompile Include="..\..\..\SRC\material\uniaxial\GeneralizedIMK.cpp">
       <Filter>uniaxial</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\SRC\material\uniaxial\ConfinedConcrete.cpp">
@@ -1331,7 +1331,7 @@
     <ClInclude Include="..\..\..\SRC\material\uniaxial\Steel05.h">
       <Filter>uniaxial</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\SRC\material\uniaxial\SmoothIMK.h">
+    <ClInclude Include="..\..\..\SRC\material\uniaxial\GeneralizedIMK.h">
       <Filter>uniaxial</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\SRC\material\section\repres\reinfBar\ReinfBar.h">

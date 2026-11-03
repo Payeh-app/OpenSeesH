@@ -65,7 +65,7 @@ OBJS       = UniaxialMaterial.o \
 	HystereticSmooth.o \
 	QbSandCPT.o \
 	TzSandCPT.o \
-	SmoothIMK.o \
+	GeneralizedIMK.o \
 	ConfinedConcrete.o \
 	Steel_01.o
 
